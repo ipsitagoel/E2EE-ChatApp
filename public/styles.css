@@ -46,6 +46,25 @@ input:focus {
 
 .green {
   color: green;
+  margin-left: 7.5%;
+}
+@media only screen and (max-width: 1260px) {
+  .green
+  {
+    margin-left: 7%;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .green
+  {
+    margin-left: 6.5%;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .green
+  {
+    margin-left: 6%;
+  }
 }
 
 .red {
