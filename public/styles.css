@@ -132,8 +132,8 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
-.title-header
-{
+
+.title-header {
   margin-top: -1.5%;
 }
 
@@ -158,18 +158,19 @@ p {
   margin: 12px -12px;
   flex: 1 0;
 }
-.sticky-header
-{
+
+.sticky-header {
   position: sticky;
   top: 0;
   width: -webkit-fill-available;
   width: -moz-available;
-  padding-top: 2%;
+  padding-top: 0%;
   padding-bottom: 2%;
-  background-color:#131419;
+  background-color: #131419;
   z-index: 100;
   align-self: flex-start;
 }
+
 .notification-list {
   display: flex;
   flex-direction: column;
@@ -233,7 +234,7 @@ p {
   display: block;
   flex: 0 0 20%;
   min-height: 24px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-weight: 500;
   margin-right: 12px;
   padding-left: 12px;
@@ -261,13 +262,13 @@ p {
 
 .yellow-button {
   flex: 0 0 30%;
-  background: #131419;
-  color: #006c9c;
   cursor: pointer;
   border: none;
   outline: none;
   background: #131419;
   color: #006c9c;
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 700;
   border-radius: 40px;
   bottom: 12px;
   left: 12px;
