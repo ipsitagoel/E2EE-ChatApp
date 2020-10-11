@@ -46,24 +46,24 @@ input:focus {
 
 .green {
   color: green;
-  margin-left: 7.5%;
+  margin-left: 3.5%;
 }
+
 @media only screen and (max-width: 1260px) {
-  .green
-  {
-    margin-left: 7%;
+  .green {
+    margin-left: 3%;
   }
 }
+
 @media only screen and (max-width: 1030px) {
-  .green
-  {
-    margin-left: 6.5%;
+  .green {
+    margin-left: 2.5%;
   }
 }
+
 @media only screen and (max-width: 880px) {
-  .green
-  {
-    margin-left: 6%;
+  .green {
+    margin-left: 2%;
   }
 }
 
@@ -132,32 +132,34 @@ p {
   flex: 0 0 60%;
   word-wrap: break-word;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: scroll;
   padding: 12px;
   margin-bottom: 100px;
   margin-left: 12px;
   margin-top: 30px;
   margin-right: 12px;
-  /* background: #131419;
+  background: #131419;
   border-radius: 10px;
-  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 15px rgba(0, 0, 0, 0.8); */
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 15px rgba(0, 0, 0, 0.8);
 }
 
 .message>p {
   font-size: small;
 }
-.messageContainer
-{
+
+.messageContainer {
   width: 4.5%;
   background: #131419;
   border-radius: 10px;
-  box-shadow: 0 4px 4px 4px #020308;
-  padding: 5px 5px 5px 5px;
+  margin-bottom: 24px !important;
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1), 2px 2px 6px rgba(0, 0, 0, 0.8);
+  padding: 12px 12px 12px 12px;
 }
-.us
-{
-  margin-left: 5.5%;
+
+.us {
+  margin-left: 5%;
 }
+
 .title-header>p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -255,7 +257,7 @@ p {
 }
 
 .key {
-  overflow: scroll;
+  overflow: hidden;
   font-family: 'OpenSans', sans-serif;
   font-weight: 500;
 }
