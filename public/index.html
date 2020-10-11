@@ -37,7 +37,7 @@
       </div>
       <div class="divider"></div>
       <div class="notification-list" ref="notificationContainer">
-        <h1>Notification Log</h1>
+        <h1 id="notif-log-header">Notification Log</h1>
         <div class="notification full-width" v-for="notification in notifications">
           <div class="notification-timestamp">{{ notification.timestamp }}</div>
           <div class="notification-message">{{ notification.message }}</div>

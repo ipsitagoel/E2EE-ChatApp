@@ -154,7 +154,14 @@ p {
   margin: 12px -12px;
   flex: 1 0;
 }
-
+#notif-log-header
+{
+  position: sticky;
+  top: 4%;
+  background-color:#000;
+  z-index: 100;
+  align-self: flex-start;
+}
 .notification-list {
   display: flex;
   flex-direction: column;
