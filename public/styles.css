@@ -158,11 +158,13 @@ p {
   margin: 12px -12px;
   flex: 1 0;
 }
-#notif-log-header
+.sticky-header
 {
   position: sticky;
   top: 0;
-  padding-top: 4%;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  padding-top: 2%;
   padding-bottom: 2%;
   background-color:#131419;
   z-index: 100;
@@ -191,12 +193,12 @@ p {
 }
 
 .notification-timestamp {
-  flex: 0 0 20%;
+  /* flex: 0 0 20%; */
   padding-right: 12px;
 }
 
 .notification-message {
-  flex: 0 0 80%;
+  /* flex: 0 0 78%; */
 }
 
 .notification:last-child {
